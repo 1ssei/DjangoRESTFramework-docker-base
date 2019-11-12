@@ -3,10 +3,7 @@ import os
 SECRET_KEY = '#02ymu8lk$2-_&5a$-srep&&p7if0wqhi=4d^wpsr_1)2uxgul'
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

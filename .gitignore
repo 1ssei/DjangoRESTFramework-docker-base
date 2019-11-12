@@ -1,1 +1,3 @@
 *.pyc
+api/static/*
+*DS_Store
